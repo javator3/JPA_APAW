@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3bea54-db79-4563-8ce4-c197a006e36a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Product.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/JpaConnectionEntityManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="252">
               <caret line="12" column="64" selection-start-line="10" selection-start-column="6" selection-end-line="12" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,8 +42,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="426">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +57,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="34">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="25" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,10 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="37" selection-start-line="17" selection-start-column="7" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="126">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,9 +134,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/JpaConnectionEntityManager.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistance.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java" />
       </list>
     </option>
   </component>
@@ -210,7 +236,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553957642992" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554016933377" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -232,7 +258,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EntityManagerPersist">
+  <component name="RunManager" selected="Application.EntityManagerOtherOperation">
+    <configuration name="EntityManagerOtherOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jpa_APAW.EntityManagerOtherOperation" />
+      <module name="JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.jpa_APAW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EntityManagerPersist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.jpa_APAW.EntityManagerPersist" />
       <module name="JPA" />
@@ -273,9 +312,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.JpaConnectionEntityManager" />
       <item itemvalue="Application.EntityManagerPersist" />
+      <item itemvalue="Application.EntityManagerOtherOperation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EntityManagerOtherOperation" />
         <item itemvalue="Application.EntityManagerPersist" />
         <item itemvalue="Application.JpaConnectionEntityManager" />
       </list>
@@ -306,19 +347,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553955491260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="employee and product modified">
+      <created>1554015519026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554015519026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19427083" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19427083" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -326,7 +373,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -344,7 +391,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="persistences added" />
     <MESSAGE value="entity employee and product added" />
-    <option name="LAST_COMMIT_MESSAGE" value="entity employee and product added" />
+    <MESSAGE value="employee and product modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="employee and product modified" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -361,20 +409,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/JpaConnectionEntityManager.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="64" selection-start-line="10" selection-start-column="6" selection-end-line="12" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="462">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -385,27 +423,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/JpaConnectionEntityManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="252">
+          <caret line="12" column="64" selection-start-line="10" selection-start-column="6" selection-end-line="12" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="37" selection-start-line="17" selection-start-column="7" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="525">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

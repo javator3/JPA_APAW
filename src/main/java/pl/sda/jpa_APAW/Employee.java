@@ -28,4 +28,13 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSalary(Long salary) {
+        this.salary = salary;
+    }
 }

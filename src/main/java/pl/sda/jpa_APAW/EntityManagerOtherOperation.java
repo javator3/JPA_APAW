@@ -14,9 +14,14 @@ public class EntityManagerOtherOperation {
 
         entityManager.getTransaction().begin();
 
-        Employee employee = entityManager.find(Employee.class, 1L);
-        System.out.println(employee);
-        employee.setName("prac nowy");
+        Employee employee = entityManager.find(Employee.class, 3L);
+//        System.out.println(employee);
+//        employee.setName("prac nowy");
+
+//        entityManager.remove(employee);
+
+        entityManager.detach(employee);
+        employee.setSalary(123455L);
 
         entityManager.getTransaction().commit();
 

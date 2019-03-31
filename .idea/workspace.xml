@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3bea54-db79-4563-8ce4-c197a006e36a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerZadanie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,12 +41,13 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="e#740#741#0" expanded="true" />
                 <element signature="e#772#773#0" expanded="true" />
                 <element signature="e#814#815#0" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="48" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerZadanie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="447">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,19 +96,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="74" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="294">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +129,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerZadanie.java" />
       </list>
     </option>
   </component>
@@ -233,7 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554018446789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554019776644" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -255,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EntityManagerOtherOperation">
+  <component name="RunManager" selected="Application.EntityManagerZadanie">
     <configuration name="EntityManagerOtherOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.jpa_APAW.EntityManagerOtherOperation" />
       <module name="JPA" />
@@ -271,6 +268,19 @@
     </configuration>
     <configuration name="EntityManagerPersist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.jpa_APAW.EntityManagerPersist" />
+      <module name="JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.jpa_APAW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityManagerZadanie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.jpa_APAW.EntityManagerZadanie" />
       <module name="JPA" />
       <extension name="coverage">
         <pattern>
@@ -310,9 +320,11 @@
       <item itemvalue="Application.JpaConnectionEntityManager" />
       <item itemvalue="Application.EntityManagerPersist" />
       <item itemvalue="Application.EntityManagerOtherOperation" />
+      <item itemvalue="Application.EntityManagerZadanie" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EntityManagerZadanie" />
         <item itemvalue="Application.EntityManagerOtherOperation" />
         <item itemvalue="Application.EntityManagerPersist" />
         <item itemvalue="Application.JpaConnectionEntityManager" />
@@ -365,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554017957054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="merge added">
+      <created>1554018497560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554018497560</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -406,7 +425,8 @@
     <MESSAGE value="employee and product modified" />
     <MESSAGE value="find and change name added" />
     <MESSAGE value="remove and detach added" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove and detach added" />
+    <MESSAGE value="merge added" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -465,8 +485,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerPersist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="357">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -476,20 +506,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="e#740#741#0" expanded="true" />
             <element signature="e#772#773#0" expanded="true" />
             <element signature="e#814#815#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerOtherOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/jpa_APAW/EntityManagerZadanie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="447">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

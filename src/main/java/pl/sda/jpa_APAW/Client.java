@@ -19,7 +19,7 @@ public class Client {
             value = {
                     @AttributeOverride(name = "street", column = @Column(name = "contact_street")),
                     @AttributeOverride(name = "city", column = @Column(name = "contact_city")),
-                    @AttributeOverride(name = "postalCode", column = @Column(name = "contact_postalCode")),
+                    @AttributeOverride(name = "postalCode", column = @Column(name = "contact_postalCode"))
             }
     )
     private Address contactAddress;

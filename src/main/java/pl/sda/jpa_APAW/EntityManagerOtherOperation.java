@@ -20,8 +20,13 @@ public class EntityManagerOtherOperation {
 
 //        entityManager.remove(employee);
 
+//        entityManager.detach(employee);
+//        employee.setSalary(123455L);
+//        System.out.println(employee);
+
         entityManager.detach(employee);
-        employee.setSalary(123455L);
+        employee.setSalary(12312444L);
+        entityManager.merge(employee);
 
         entityManager.getTransaction().commit();
 

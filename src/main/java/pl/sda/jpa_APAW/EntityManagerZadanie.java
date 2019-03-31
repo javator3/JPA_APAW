@@ -14,19 +14,36 @@ public class EntityManagerZadanie {
 
         EntityManager entityManager = emf.createEntityManager();
 
+//        entityManager.getTransaction().begin();
+//
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("podaj nr id pracownika");
+//        Long a = scanner.nextLong();
+//
+//        Employee employee = entityManager.find(Employee.class, a);
+//
+//        if (employee == null){
+//            System.out.println("brak pracownika o danym id");
+//        } else {
+//            System.out.println(employee.getSalary());
+//        }
+//        entityManager.getTransaction().commit();
+
         entityManager.getTransaction().begin();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("podaj nr id pracownika");
+        System.out.println("podaj ilu pracowników dodać");
         Long a = scanner.nextLong();
 
-        Employee employee = entityManager.find(Employee.class, a);
 
-        if (employee == null){
-            System.out.println("brak pracownika o danym id");
-        } else {
-            System.out.println(employee.getSalary());
+        for (int i = 0; i < a; i++) {
+            Employee em = new Employee("Andy", 333L);
+            entityManager.persist(em);
+
         }
+
+
+
         entityManager.getTransaction().commit();
 
 

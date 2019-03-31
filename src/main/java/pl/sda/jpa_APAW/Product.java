@@ -1,13 +1,10 @@
 package pl.sda.jpa_APAW;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-
+@Table(name = "Products")
 public class Product {
 
     @Id
@@ -20,8 +17,7 @@ public class Product {
 
     public Product (){};
 
-    public Product(Long id, String name, BigDecimal cena) {
-        this.id = id;
+    public Product(String name, BigDecimal cena) {
         this.name = name;
         this.cena = cena;
     }
@@ -36,5 +32,14 @@ public class Product {
 
     public BigDecimal getCena() {
         return cena;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", cena=" + cena +
+                '}';
     }
 }

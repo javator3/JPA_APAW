@@ -1,9 +1,6 @@
 package pl.sda.jpa_APAW;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "employee3")
@@ -11,13 +8,14 @@ public class Employee {
     @Id
     @GeneratedValue
     private Long id;
+    @Column(unique = true)
     private String name;
     private Long salary;
 
     public Employee(){} // pusty konstruktor jest potrzebny dla hibernate
 
-    public Employee(Long id, String name, Long salary) {
-        this.id = id;
+    public Employee(String name, Long salary) {
+
         this.name = name;
         this.salary = salary;
     }

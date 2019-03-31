@@ -15,6 +15,9 @@ public class Address {
         this.postalCode = postalCode;
     }
 
+    public Address() {
+    }
+
     @Override
     public String toString() {
         return "Address{" +

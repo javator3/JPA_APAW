@@ -38,6 +38,7 @@ public class Employee {
         this.salary = salary;
     }
 
+
     public Long getSalary() {
         return salary;
     }

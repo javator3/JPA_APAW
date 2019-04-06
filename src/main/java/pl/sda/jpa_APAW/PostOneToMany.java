@@ -2,6 +2,7 @@ package pl.sda.jpa_APAW;
 
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -11,9 +12,9 @@ public class PostOneToMany {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "Comment_id")
-    private List<PostComment> comments;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "postOneToMany")
+
+    private List<PostComment> comments = new ArrayList<>();
 
 
 

@@ -1,10 +1,7 @@
 package pl.sda.jpa_APAW;
 
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class PostComment {
@@ -14,6 +11,10 @@ public class PostComment {
     private Long id;
     private String content;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "Post_id")
+    private PostOneToMany postOneToMany;
+
 
     public PostComment() {
     }
@@ -22,5 +23,11 @@ public class PostComment {
         this.content = content;
     }
 
+    public PostOneToMany getPostOneToMany() {
+        return postOneToMany;
+    }
 
+    public void setPostOneToMany(PostOneToMany postOneToMany) {
+        this.postOneToMany = postOneToMany;
+    }
 }

@@ -13,7 +13,6 @@ public class PostOneToOne2 {
 
         Post2 post21 = new Post2("post21");
         post21.setDetails2(new PostDetails2("cn con"));
-
         entityManager.persist(post21);
 
         entityManager.getTransaction().commit();
